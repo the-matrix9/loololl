@@ -1,4 +1,8 @@
-import { DownloadLinkModel } from '#common/models'
+import { z } from 'zod'
+
+export const SimpleSongModel = z.object({
+  id: z.string(),       // music ID
+  title: z.string()     // song nameimport { DownloadLinkModel } from '#common/models'
 import { AlbumAPIResponseModel, AlbumModel } from '#modules/albums/models'
 import { SongAPIResponseModel, SongModel } from '#modules/songs/models'
 import { z } from 'zod'
@@ -179,4 +183,5 @@ export const ArtistModel = z.object({
       })
     )
     .nullable()
+})
 })
