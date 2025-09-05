@@ -15,15 +15,25 @@ For a detailed list of changes, see the [CHANGELOG](CHANGELOG.md).
 
 ## 🔌 Running Locally
 
-> [!NOTE]
-> You need `Bun(1.0.29+)` or `Node.js(v20+)`
-
 1. Clone the repository:
 
    ```sh
    git clone https://github.com/sumitkolhe/jiosaavn-api
    cd jiosaavn-api
    ```
+
+### Using Docker
+
+```sh
+docker-compose up
+```
+
+OR
+
+### Manually
+
+> [!NOTE]
+> You need `Bun(1.0.29+)` or `Node.js(v20+)`
 
 2. Install the required dependencies:
 
